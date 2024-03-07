@@ -3,7 +3,7 @@
         "Author": "Asgard, Marfjeh and Contributors",
         "Name": "Brio Classic",
         "Description": "Control actors during GPose sessions.",
-        "InternalName": "Brio_classic",
+        "InternalName": "Brio",
         "AssemblyVersion": "0.1.9.2",
         "TestingAssemblyVersion": "0.1.9.2",
         "RepoUrl": "https://github.com/Marfjeh/Brio_classic",
