@@ -1,12 +1,12 @@
 [
     {
-        "Author": "Asgard",
-        "Name": "Brio",
+        "Author": "Asgard, Marfjeh and Contributors",
+        "Name": "Brio Classic",
         "Description": "Control actors during GPose sessions.",
-        "InternalName": "Brio",
+        "InternalName": "Brio_classic",
         "AssemblyVersion": "0.1.9.2",
         "TestingAssemblyVersion": "0.1.9.2",
-        "RepoUrl": "https://github.com/AsgardXIV/Brio",
+        "RepoUrl": "https://github.com/Marfjeh/Brio_classic",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 9,
         "DownloadLinkInstall": "https://github.com/Marfjeh/Brio_classic/releases/download/v0.1.9.2/Brio.zip",
