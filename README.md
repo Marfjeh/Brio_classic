@@ -1,27 +1,19 @@
-# Brio
-Brio is a small utility designed to assist with the management and control of actors in GPose.
-It is designed to enhance the experience of users no matter which posing tool they use, whether it be [Anamnesis](https://github.com/imchillin/Anamnesis) or [Ktisis](https://github.com/ktisis-tools/Ktisis).
+# Brio Classic
+Brio classic is a simple fork to the old Interface of Brio.
 
-## Features
-* Creation and Deletion of GPose actors (up to 39)
-* Change the Penumbra collection applied to GPose actors
-* Add/Remove/Blend animations on GPose actors (and adjust their speed / scrub through them)
-* Change the active festivals and apply up to 4 at once (Moonfire Faire for fireworks etc) 
-* Add/Remove Status Effects on GPose actors
-* Control Time/Weather in both the Overworld and GPose
-* Redraw control of GPose actors
-* NPC Appearance Hack (Allows you to apply NPC appearances to players without breaking tools like Penumbra)
-* Works with Ktisis and Anamnesis (Enable Brio integration within Anamnesis for a better experience)
+## THIS IS NOT A SUPPORTED VERSION. AND USE IT AT YOUR OWN RISK
+Reasoning for the fork is that although Asgard, Minmoose and the contributers made a wonderful plugin, with awesome features.
+I wanted to use the older version. this is just my silly reason. I do not wish any harm. :3
+
+Please do not use this plugin, instead use the [up-to-date version](https://github.com/Etheirys/Brio). 
+
+Also do not send any bug reports to Brio instead, make an issue here. they are already hard working people :3
 
 ## Installation
-1. Add the custom Dalamud repo `https://raw.githubusercontent.com/AsgardXIV/Brio/main/repo.json`
+1. Add the custom Dalamud repo `https://github.com/Marfjeh/Brio_classic/blob/main/repo.json`
 2. Enable the `Brio` plugin
 3. Run the `/brio` command
 
-## Support
-Brio is still early in Alpha so issues are expected.
-
-Please either open an [issue](https://github.com/AsgardXIV/Brio/issues) or visit us on [Discord](https://discord.gg/KvGJCCnG8t) if you need help!
 
 ## Authors
 * [Asgard](https://github.com/AsgardXIV) - Main development.
@@ -34,4 +26,6 @@ Please either open an [issue](https://github.com/AsgardXIV/Brio/issues) or visit
 * [FFXIVClientStructs](https://github.com/aers/FFXIVClientStructs)
 
 ## License
-Brio is licensed under the [MIT License](https://github.com/AsgardXIV/Brio/blob/main/LICENSE).
+This version of Brio is licensed under the [MIT License](https://github.com/Marfjeh/Brio_classic/blob/main/LICENSE).
+
+Although if requested I can change the License to match the current version.

@@ -19,18 +19,20 @@ public class InfoWindow : Window
     {
         ImGui.BeginGroup();
 
-        ImGui.Text($"Welcome to Brio v{Brio.PluginVersion}!");
+        ImGui.Text($"Welcome to Brio Classic v{Brio.PluginVersion}!");
 
         ImGui.Spacing();
 
-        ImGui.Text("Brio is a small set of utilities from Asgard.");
-        ImGui.Text("It is designed to enhance the experience of using GPose.");
-        ImGui.Text("It is not a posing tool (like Anamnesis or Ktisis).");
+        //ImGui.Text("Brio is a small set of utilities from Asgard and Minmoose.");
+        //ImGui.Text("It is designed to enhance the experience of using GPose.");
+        //ImGui.Text("It is not a posing tool (like Anamnesis or Ktisis).");
 
-        ImGui.Spacing();
+        //ImGui.Spacing();
 
-        ImGui.Text("Brio is still very early in development so issues are expected.");
-        ImGui.Text("Report an issue or join our Discord for assistance.");
+        ImGui.Text("This plugin is a fork of the older UI from Brio.");
+        ImGui.Text("And it is a UNSUPPORTED Version.");
+        ImGui.Text("Please do not report any issues to Brio itself!");
+        ImGui.Text("instead, use the fork repo for issues.");
 
         ImGui.Spacing();
 
@@ -48,29 +50,14 @@ public class InfoWindow : Window
 
         ImGui.BeginGroup();
 
-        ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(86, 98, 246, 255) / 255);
-        if(ImGui.Button("Discord", ButtonSize))
-            Process.Start(new ProcessStartInfo { FileName = "https://discord.gg/xivtools", UseShellExecute = true });
-        ImGui.PopStyleColor();
-
         ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(255, 0, 0, 255) / 255);
-        if(ImGui.Button("Report Issue", ButtonSize))
-            Process.Start(new ProcessStartInfo { FileName = "https://github.com/AsgardXIV/Brio/issues", UseShellExecute = true });
+        if(ImGui.Button("(New) Report Issue", ButtonSize))
+            Process.Start(new ProcessStartInfo { FileName = "https://github.com/Marfjeh/Brio_classic/issues", UseShellExecute = true });
         ImGui.PopStyleColor();
 
         ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(110, 84, 148, 255) / 255);
-        if(ImGui.Button("GitHub Repository", ButtonSize))
-            Process.Start(new ProcessStartInfo { FileName = "https://github.com/AsgardXIV/Brio", UseShellExecute = true });
-        ImGui.PopStyleColor();
-
-        ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(255, 91, 94, 255) / 255);
-        if(ImGui.Button("Donate on Ko-Fi", ButtonSize))
-            Process.Start(new ProcessStartInfo { FileName = "https://ko-fi.com/asgard", UseShellExecute = true });
-        ImGui.PopStyleColor();
-
-        ImGui.PushStyleColor(ImGuiCol.Button, new Vector4(29, 161, 242, 255) / 255);
-        if(ImGui.Button("Asgard's Twitter", ButtonSize))
-            Process.Start(new ProcessStartInfo { FileName = "https://twitter.com/AsgardXIV", UseShellExecute = true });
+        if(ImGui.Button("(New) GitHub Repository", ButtonSize))
+            Process.Start(new ProcessStartInfo { FileName = "https://github.com/Marfjeh/Brio_classic", UseShellExecute = true });
         ImGui.PopStyleColor();
 
         ImGui.EndGroup();

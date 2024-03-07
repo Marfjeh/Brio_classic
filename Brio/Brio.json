@@ -1,12 +1,12 @@
 ﻿{
-  "Author": "Asgard",
-  "Name": "Brio",
+  "Author": "Asgard, Marfjeh and Contributors",
+  "Name": "Brio Classic",
   "Punchline": "Actor control for GPose.",
   "Description": "Control actors during GPose sessions.",
-  "AssemblyVersion": "0.0.0.1",
-  "InternalName": "Brio",
+  "AssemblyVersion": "0.0.0.2",
+  "InternalName": "Brio_classic",
   "ApplicableVersion": "any",
-  "IconUrl": "https://raw.githubusercontent.com/AsgardXIV/Brio/main/Resources/Images/BrioIcon.png",
+  "IconUrl": "https://raw.githubusercontent.com/Marfjeh/Brio_classic/main/Resources/Images/BrioIcon.png",
   "Tags": [
     "gpose",
     "brio",
