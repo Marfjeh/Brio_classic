@@ -10,7 +10,7 @@ Please do not use this plugin, instead use the [up-to-date version](https://gith
 Also do not send any bug reports to Brio instead, make an issue here. they are already hard working people :3
 
 ## Installation
-1. Add the custom Dalamud repo `https://github.com/Marfjeh/Brio_classic/blob/main/repo.json`
+1. Add the custom Dalamud repo `https://raw.githubusercontent.com/Marfjeh/Brio_classic/main/repo.json`
 2. Enable the `Brio` plugin
 3. Run the `/brio` command
 
